@@ -11,7 +11,7 @@ int main(){
 	
 	for(int z=0;z<MAX;z++){
 
-			x+=2; // only works for even numbers bigger than 2 
+			x+=2; // only works for even numbers greater than 2 
 	
 		if(prime(x/2)) printf("%d = %d + %d\n",x,x/2,x/2); // if the half of the number is a prime one, you found the answer
 		else{
