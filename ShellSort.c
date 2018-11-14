@@ -9,7 +9,7 @@ void printa(int *v,int n){
 
 void ShellSort(int *v, int ini, int fim){
 
-	int i, j, aux, n=fim+ini+1, h=n;
+	int i, j, aux, n=fim-ini+1, h=n;
 		
 	while (h > 1) {
 	
