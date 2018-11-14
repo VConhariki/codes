@@ -12,7 +12,7 @@ int buscaMenor(int *v, int ini, int fim){
 
 	int i,iMenor=ini,menor=v[ini];
 	
-	for(i=ini+1;i<=fim-1;i++)
+	for(i=ini+1;i<=fim;i++)
 		if(menor > v[i]){
 		
 			menor = v[i];
